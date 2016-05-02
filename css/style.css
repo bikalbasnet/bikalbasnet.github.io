@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:400,700);
+body {
+    font-family: 'Josefin Slab', serif;
+    font-size: 48px;
+    background: #1BCACD;
+}
+#introduction{
+    color : #fff;
+    text-align: center;
+    position: relative;
+}
+#introduction span {
+    font-weight: bold;
+    opacity: 0.3;
+}
+#introduction #about-me {
+    font-size: 20px;
+    opacity: 0;
+}
+#my-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../images/ram-mandir-pic.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    display: none;
+    transition: all 1s ease;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#my-pic.rotate {
+    transform : scale(0.5) rotate(340deg)
+}
+#callback-contact {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0;
+}
+#callback-contact #email-address{
+    font-weight: bold;
+    font-size: 20px;
+}
+#callback-contact a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+#callback-contact a:hover {color: #2A2625}
