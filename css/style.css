@@ -16,6 +16,10 @@ body {
 #introduction #about-me {
     font-size: 20px;
     opacity: 0;
+    line-height: 30px;
+    width: 45%;
+    margin: 0 auto;
+    text-align: left;
 }
 #my-pic {
     width: 150px;
@@ -23,17 +27,16 @@ body {
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    background: url(../images/ram-mandir-pic.jpg) no-repeat;
+    background: url(../images/bikal.jpg) no-repeat;
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     display: none;
     transition: all 1s ease;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin: 20px  auto;
 }
 #my-pic.rotate {
-    transform : scale(0.5) rotate(340deg)
+    transform : scale(0.8) rotate(355deg)
 }
 #callback-contact {
     color: #fff;
